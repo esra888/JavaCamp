@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="af746286-1546-4966-a9dd-ad8d1dd9a219" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameProject/src/Entities/Sale.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameProject/src/Entities/Sale.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,13 +58,29 @@
       <option name="project" value="LOCAL" />
       <updated>1621115161588</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updated sale entity.">
+      <created>1621117589643</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1621117589643</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added services.">
+      <created>1621117702465</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1621117702465</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Game Project." />
     <MESSAGE value="Added entities." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added entities." />
+    <MESSAGE value="Updated sale entity." />
+    <MESSAGE value="Added services." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added services." />
   </component>
   <component name="WindowStateProjectService">
     <state x="738" y="137" key="#com.intellij.ide.util.MemberChooser" timestamp="1621116467499">
@@ -76,14 +91,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="868" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1621117217331" />
-    <state x="292" y="0" key="CommitChangelistDialog2" timestamp="1621117588998">
+    <state x="292" y="0" key="CommitChangelistDialog2" timestamp="1621117701870">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="292" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1621117588998" />
-    <state x="627" y="160" key="Vcs.Push.Dialog.v2" timestamp="1621117633341">
+    <state x="292" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1621117701870" />
+    <state x="627" y="160" key="Vcs.Push.Dialog.v2" timestamp="1621117711848">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="627" y="160" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1621117633341" />
+    <state x="627" y="160" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1621117711848" />
     <state x="846" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1621115340529">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
