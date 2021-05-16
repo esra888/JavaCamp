@@ -3,16 +3,17 @@ package Entities;
 import Abstract.EntityInterface;
 
 public class Campaign implements EntityInterface {
+    private int campaignId;
     private String campaignName;
-    private String campaignId;
+    private double discountRate;
 
     public Campaign() {
     }
 
-    public Campaign(String campaignName, String campaignId) {
-        this.campaignName = campaignName;
+    public Campaign(int campaignId, String campaignName, double discountRate) {
         this.campaignId = campaignId;
-
+        this.campaignName = campaignName;
+        this.discountRate = discountRate;
     }
 
     public String getCampaignName() {
@@ -23,11 +24,19 @@ public class Campaign implements EntityInterface {
         this.campaignName = campaignName;
     }
 
-    public String getCampaignId() {
+    public int getCampaignId() {
         return campaignId;
     }
 
-    public void setCampaignId(String campaignId) {
+    public void setCampaignId(int campaignId) {
         this.campaignId = campaignId;
+    }
+
+    public double getDiscountRate() {
+        return discountRate;
+    }
+
+    public void setDiscountRate(double discountRate) {
+        this.discountRate = discountRate;
     }
 }

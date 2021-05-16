@@ -4,14 +4,12 @@ import Abstract.EntityInterface;
 
 public class Sale implements EntityInterface {
     int id;
-    private double price;
 
     public Sale() {
     }
 
-    public Sale(int id, double price) {
+    public Sale(int id) {
         this.id = id;
-        this.price = price;
     }
 
     public int getId() {
@@ -22,12 +20,4 @@ public class Sale implements EntityInterface {
         this.id = id;
     }
 
-
-    public double getPrice() {
-        return price;
-    }
-
-    public void setPrice(double price) {
-        this.price = price;
-    }
 }
