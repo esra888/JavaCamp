@@ -1,10 +1,10 @@
 package Abstract;
 
 import Entities.Campaign;
+import Entities.Game;
 import Entities.Player;
-import Entities.Sale;
 
 public interface SaleServiceInterface {
-    void sale(Sale sale,Player player);
-    void sale(Sale sale, Player player, Campaign campaign);
+    void sale(Player player, Game game);
+    void campaignSale(Player player,Game game, Campaign campaign);
 }
