@@ -10,7 +10,7 @@ public class Adaptors implements PlayerCheckServiceInterface {
         HTLKPSPublicSoap publicSoap = new HTLKPSPublicSoap();
 
         try {
-            return publicSoap.TCKimlikNoDogrula(Long.valueOf(player.nationalityId),player.firstName.toUpperCase(),player.lastName.toUpperCase(),player.dateOfBirth.getYear());
+            return publicSoap.TCKimlikNoDogrula(Long.valueOf(player.getNationalityId()),player.getFirstName().toUpperCase(),player.getLastName().toUpperCase(),player.getDateOfBirth().getYear());
         } catch (Exception e) {
             e.printStackTrace();
         }

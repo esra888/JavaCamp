@@ -14,7 +14,7 @@ public class PlayerManager implements PlayerServiceInterface {
     @Override
     public void add(Player player) {
         if(Check(player)) {
-            System.out.println("Added to db : " + player.firstName);
+            System.out.println("Added to db : " + player.getFirstName());
         }else {
             System.out.println("Player is not valid.");
         }
@@ -23,7 +23,7 @@ public class PlayerManager implements PlayerServiceInterface {
     @Override
     public void update(Player player) {
         if(Check(player)) {
-            System.out.println("Player updated : " + player.firstName);
+            System.out.println("Player updated : " + player.getFirstName());
         }else {
             System.out.println("Player is not valid.");
         }
@@ -32,7 +32,7 @@ public class PlayerManager implements PlayerServiceInterface {
     @Override
     public void delete(Player player) {
         if(Check(player)) {
-            System.out.println("Deleted from db : " + player.firstName);
+            System.out.println("Deleted from db : " + player.getFirstName());
         }else {
             System.out.println("Player is not valid.");
         }

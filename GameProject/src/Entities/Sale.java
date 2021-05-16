@@ -3,7 +3,7 @@ package Entities;
 import Abstract.EntityInterface;
 
 public class Sale implements EntityInterface {
-    int id;
+    private int id;
 
     public Sale() {
     }

@@ -5,11 +5,11 @@ import Abstract.EntityInterface;
 import java.time.LocalDate;
 
 public class Player implements EntityInterface {
-    int id;
-    public String firstName;
-    public String lastName;
-    public LocalDate dateOfBirth;
-    public String nationalityId;
+    private int id;
+    private String firstName;
+    private String lastName;
+    private LocalDate dateOfBirth;
+    private String nationalityId;
 
     public Player() {
     }
